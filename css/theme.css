@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #edc345;
+  --color-primary-light: #f9ffc5;
+  --color-secondary: #FCE8F8;
+  --color-accentpink: #E676D0;
+  --color-accentpurple:#B699E8;
+
+  --font-primary: "Atma", sans-serif;
+  --font-secondary: "Fredoka One", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
