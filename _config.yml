@@ -17,7 +17,14 @@ patternbot:
       The secondary colour ws chosen because it is a bright comlementary colour to the primary colour and will catch people's eyes.
     colors.primary-light: |
       The light version of the primary colour was chosen to be the background for the entire site which gives the impression that it is one big pancake.
-    colors.accentpink: |
+    colors.secondary-light: |
       This colour was chosen to be used as a lighter version of the secondary colour if needed.
     colors.accentpurple: |
       This colour was chosen to be an accent pop of colour for the site since it is the oposite colour to the background colour. This means it will stand out well.
+    colors.accentpurple-shadow: |
+        This colour is chosen to be the shadow to the accent purple colour.
+  colors:
+    background: "--color-primary-light"
+    accent: "--color-secondary"
+    patterns:
+      brand.logos: "--color-primary-light"

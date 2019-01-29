@@ -1,9 +1,10 @@
 :root {
   --color-primary: #edc345;
   --color-primary-light: #f9ffc5;
-  --color-accentpink: #FCE8F8;
   --color-secondary: #E676D0;
+  --color-secondary-light: #FCE8F8;
   --color-accentpurple:#B699E8;
+  --color-accentpurple-shadow:#8E56EF;
 
   --font-primary: "Atma", sans-serif;
   --font-light: "Atma", cursive;
