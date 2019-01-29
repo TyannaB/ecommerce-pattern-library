@@ -6,6 +6,7 @@
   --color-accentpurple:#B699E8;
 
   --font-primary: "Atma", sans-serif;
+  --font-light: "Atma", cursive;
   --font-secondary: "Fredoka One", sans-serif;
 }
 
@@ -20,13 +21,13 @@ h1 {
 }
 
 h2 {
-  font-family: var(--font-secondary);
-  color: var(--color-accentpurple);
+  font-family: var(--font-primary);
+  color: var(--color-primary);
 }
 
 h3 {
   font-family: var(--font--secondary);
-  color: var(--color-primary);
+  color: var(--color-accentpurple);
 }
 
 h4 {
@@ -35,12 +36,12 @@ h4 {
 }
 
 h5 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-accentpurple);
 }
 
 h6 {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-accentpink);
 }
 
@@ -62,4 +63,10 @@ cite {
 
 q {
   font-family: var(--font-secondary);
+}
+
+a {
+  font-family: var(--font-light);
+  text-decoration: none;
+  color: var(--color-primary);
 }
