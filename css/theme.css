@@ -1,8 +1,8 @@
 :root {
   --color-primary: #edc345;
   --color-primary-light: #f9ffc5;
-  --color-secondary: #FCE8F8;
-  --color-accentpink: #E676D0;
+  --color-accentpink: #FCE8F8;
+  --color-secondary: #E676D0;
   --color-accentpurple:#B699E8;
 
   --font-primary: "Atma", sans-serif;
@@ -17,7 +17,7 @@ html {
 
 h1 {
   font-family: var(--font-primary);
-  color: var(--color-accentpink);
+  color: var(--color-secondary);
 }
 
 h2 {
@@ -32,7 +32,7 @@ h3 {
 
 h4 {
   font-family: var(--font--secondary);
-  color: var(--color-accentpink);
+  color: var(--color-secondary);
 }
 
 h5 {
@@ -42,7 +42,7 @@ h5 {
 
 h6 {
   font-family: var(--font-secondary);
-  color: var(--color-accentpink);
+  color: var(--color-secondary);
 }
 
 strong {
