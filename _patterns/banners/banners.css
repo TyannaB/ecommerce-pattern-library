@@ -1,0 +1,10 @@
+.hb {
+  max-height: 25em;
+}
+
+.hb-content {
+  color: var(--color-secondary);
+  width: 100%;
+  background-color: rgba(249, 255, 197, .4);
+  filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, .4));
+}
