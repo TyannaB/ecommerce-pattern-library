@@ -1,0 +1,33 @@
+<form class="grid" action="index.html" method="post">
+  <div class="unit s-1 m-1-3 l-1-4 push-1-2">
+    <label for="city">City</label>
+    <input id="city" required aria-describedby="city-error">
+    <p class="error-message milli island-1-4 push-0" id="city-error">
+      <i class="icon i-16"><svg><use xlink:href="/images/icons#error.svg" /></svg></i>
+      <span class="icon-label">Please provide the city that you live in</span>
+    </p>
+  </div>
+
+  <div class="unit s-1 m-2-3 l-2-4 push-1-2">
+    <label class="push-1-8" for="country">Country</label>
+    <select id="country" name="country" required>
+      <option value="">Select your country</option>
+      <option>Canada</option>
+      <option>United States of America</option>
+      <option>Mexico</option>
+    </select>
+  </div>
+
+  <div class="unit s-1-2 m-1-3 l-1-4 push-1-2">
+    <label for="zip-postal">Zip/Postal Code</label>
+    <input id="zip-postal" required aria-describedby="zip-postal-error">
+    <p class="error-message milli island-1-4 push-0" id="zip-postal-error">
+      <i class="icon i-16"><svg><use xlink:href="/images/icons#error.svg" /></svg></i>
+      <span class="icon-label">Please provide your zip or postal code</span>
+    </p>
+  </div>
+
+  <div class="unit s-1 m-1-3 l-2-4 pad-t-1-2">
+    <button class="btn" type="submit">Complete Purchase</button>
+  </div>
+</form>
