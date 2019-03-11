@@ -47,11 +47,11 @@
 }
 
 .main-nav li {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid var(--color-secondary-light);
 }
 
 .main-nav li:hover {
-  color: var(--color-primary-light);
+  color: var(--color-primary);
 }
 
 .print-check:checked ~ .print-nav,
