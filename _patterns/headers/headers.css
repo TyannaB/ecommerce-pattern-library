@@ -21,13 +21,13 @@
 }
 
 .main-check ~ .main-label i > svg {
-  border: 2px solid var(--color-primary-dark);
-  color: var(--color-primary-dark);
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
 }
 
 .main-check:checked ~ .main-label i > svg {
-  background-color: var(--color-blue);
-  color: var(--color-yellow);
+  background-color: var(--color-primary-light);
+  color: var(--color-accentpurple);
   border-color: transparent;
 }
 
@@ -42,8 +42,8 @@
 }
 
 .pin {
-  border-top: 2px solid var(--color-primary-dark);
-  border-bottom: 2px solid var(--color-primary-dark);
+  border-top: 2px solid var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
 }
 
 .main-nav li {
@@ -57,9 +57,9 @@
 .print-check:checked ~ .print-nav,
 .cloth-check:checked ~ .cloth-nav,
 .elec-check:checked ~ .elec-nav {
-  border-top: 2px solid var(--color-primary-dark);
+  border-top: 2px solid var(--color-primary);
   display: block;
-  background-color: var(--color-secondary-dark);
+  background-color: var(--color-secondary);
 }
 
 .print-nav li,
@@ -71,7 +71,7 @@
 .print-nav li:hover,
 .cloth-nav li:hover,
 .elec-nav li:hover {
-  background-color: var(--color-secondary-darker);
+  background-color: var(--color-secondary);
   border: none;
 }
 
@@ -92,7 +92,7 @@
   }
 
   .main-nav li:hover {
-    border-bottom: 2px solid var(--color-primary-dark);
+    border-bottom: 2px solid var(--color-primary);
   }
 
   .pin {
