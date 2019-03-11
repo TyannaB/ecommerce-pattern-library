@@ -4,11 +4,6 @@
   font-family: var(--font-secondary);
 }
 
-.slash {
-  background: url(../../images/right-cheveron.svg) center right / 1rem auto no-repeat;
-  padding-right: 1.2rem;
-}
-
 .active,
 .hover:hover {
   color: var(--color-primary-light);
@@ -59,7 +54,7 @@
 
 .side-nav a {
   border-left: 2px solid var(--color-secondary);
-  background-color: var(--color-secondary);
+  background-color: var(--color-accentpurple);
   color: var(--color-secondary-light);
   font-family: var(--font-primary);
 }

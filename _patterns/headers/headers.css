@@ -20,11 +20,6 @@
   display: none;
 }
 
-.main-check ~ .main-label i > svg {
-  border: 2px solid var(--color-primary);
-  color: var(--color-primary);
-}
-
 .main-check:checked ~ .main-label i > svg {
   background-color: var(--color-primary-light);
   color: var(--color-accentpurple);
