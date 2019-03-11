@@ -59,7 +59,7 @@
 .elec-check:checked ~ .elec-nav {
   border-top: 2px solid var(--color-primary);
   display: block;
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary-light);
 }
 
 .print-nav li,
@@ -71,7 +71,7 @@
 .print-nav li:hover,
 .cloth-nav li:hover,
 .elec-nav li:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary-light);
   border: none;
 }
 
