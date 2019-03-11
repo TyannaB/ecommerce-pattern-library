@@ -15,6 +15,6 @@ patterns:
     description: |
       The social navigation is used for quick access to the sites social presence on the web. It should only ever be used in the footer.
   side-bar:
-    title: "Side-Bar"
+    title: "tool-Bar"
     description: |
-      The Side-Bar is only found on the product pages and is used to filter out options available for that product. It is always located to the left side of the content and should be a column of its own.
+      The tool-Bar is only found on the product pages and is used to filter out options available for that product. It is always located to the left side of the content and should be a column of its own.
