@@ -20,7 +20,7 @@
 }
 
 .social-nav li a:hover {
-  color: var(--color-light-red);
+  color: var(--color-accentpurple);
 }
 
 .page-nav .hover:hover {
@@ -34,13 +34,13 @@
 
 .side-navigation,
 .side-label {
-  color: var(--color-primary-dark);
+  color: var(--color-primary);
   width: 100%;
   max-width: 15em;
 }
 
 .side-label {
-  border-bottom: 1px solid var(--color-secondary-darker);
+  border-bottom: 1px solid var(--color-secondary);
 }
 
 .side-check[type="checkbox"] + label::before {
@@ -58,9 +58,9 @@
 }
 
 .side-nav a {
-  border-left: 2px solid var(--color-secondary-dark);
-  background-color: var(--color-secondary-dark);
-  color: var(--color-secondary-darker);
+  border-left: 2px solid var(--color-secondary);
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-light);
   font-family: var(--font-primary);
 }
 
