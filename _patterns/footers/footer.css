@@ -1,0 +1,10 @@
+li {
+  list-style: none;
+}
+
+.background-pattern {
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/images/pancakes-clipart-01.svg");
+  background-size: 25px;
+  background-repeat: space;
+
+}
