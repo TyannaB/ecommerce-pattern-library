@@ -30,4 +30,13 @@ patternbot:
       brand.logos: "--color-primary-light"
   layouts:
     default: |
-      The default layout should be used on almost every page, it includes the websites primary header and footer.
+      The default layout should be used on almost every page, it includes the websites primary header and footer
+  patterns:
+    banners:
+      fields:
+        - name: heading
+        type: string
+        example: "New Stickers"
+        - name: text
+        type: string
+        example: "Click to see new stickers"
