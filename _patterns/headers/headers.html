@@ -18,18 +18,18 @@
     <nav class="main-nav">
       <ul class="list-group-inline text-center grid grid-middle">
 
-        <li class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-2 current">
+        <li class="unit xs-1 s-1 m-1-4 l-1-4 gutter-1-2 {% if page.highlight_nav == 'all products' %}current{% endif %} ">
           <a class="island-1-2 block" href="/products/">All Products</a>
         </li>
 
-        <li class="unit xs-1 s-1 m-1-4 l-1-4 relative">
+        <li class="unit xs-1 s-1 m-1-4 l-1-4 relative {% if page.highlight_nav == 'art prints' %}current{% endif %} ">
           <input type="checkbox" id="print-nav" class="print-check">
           <label for="print-nav" class="island-1-2 block">
             <span>Art Prints</span>
           </label>
           <nav class="print-nav w-1 zindex-1000 pin" id="nav">
             <ul class="list-group push-0">
-              <li class="valign-middle">
+              <li class="valign-middle {% if page.highlight_nav == 'posters' %}current{% endif %}">
                 <a class="block milli island-1-2" href="/products/">Posters</a>
               </li>
             </ul>
