@@ -22,7 +22,7 @@ patternbot:
     colors.accentpurple: |
       This colour was chosen to be an accent pop of colour for the site since it is the oposite colour to the background colour. This means it will stand out well.
     colors.accentpurple-shadow: |
-        This colour is chosen to be the shadow to the accent purple colour.
+        This colour is chosen to be the darker version of the accent purple colour.
   colors:
     background: "--color-primary-light"
     accent: "--color-secondary"
@@ -30,13 +30,4 @@ patternbot:
       brand.logos: "--color-primary-light"
   layouts:
     default: |
-      The default layout should be used on almost every page, it includes the websites primary header and footer
-  patterns:
-    banners:
-      fields:
-        - name: heading
-        type: string
-        example: "New Stickers"
-        - name: text
-        type: string
-        example: "Click to see new stickers"
+      The default layout should be used on almost every page, it includes the websites primary header and footer.

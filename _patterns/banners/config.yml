@@ -1,0 +1,21 @@
+title: "Banners"
+description: |
+  Banners are to be used at the top of pages. Hero banners are for item specific pages and will display new products for that item section. Regular banner will be for the homepage.
+
+patterns:
+  banner:
+    fields:
+      - name: heading
+        type: string
+        example: "New Stickers"
+      - name: text
+        type: string
+        example: "Click to see new stickers"
+  hero-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "New Stickers"
+      - name: text
+        type: string
+        example: "Click to see new stickers"
