@@ -1,0 +1,40 @@
+title: "forms"
+description: |
+  These are all the inouts for the form.
+patterns:
+    card-expired-month:
+      title: "Card Expired Month"
+      description: |
+        This is the input for the expirery date for the card used to make the purchase.
+    card-number:
+      title: "Card Number"
+      description: |
+        This is the input for the card number for the card used to make a purchase.
+    cardholdername:
+      title: "Card Holder name"
+      description: |
+        This is the input for the name of the cardholder.
+    city-input:
+      title: "City Input"
+      description: |
+        This is the input section for the city the customer lives in.
+    country-input:
+      title: "Country Input"
+      description: |
+        This is the input for the country the customer lives in.
+    email-input:
+      title: "Email Input"
+      description: |
+        This is where the customer inputs their email address.
+    postal-code:
+      title: "Postal Code"
+      description: |
+        This is where the customer inputs their postal code.
+    product-choice:
+      title: "Product Choice"
+      description: |
+        this is where the customer inputs how many of this product they want to purchace.
+    fieldset:
+      title: "Full Form"
+      description: |
+        This is the entire form and how it should look.
