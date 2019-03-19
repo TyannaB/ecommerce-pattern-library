@@ -7,7 +7,7 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "New Stickers"
+        example: "Stickers, Stickers, Stickers!"
       - name: text
         type: string
         example: "Click to see new stickers"
@@ -15,7 +15,4 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "New Stickers"
-      - name: text
-        type: string
-        example: "Click to see new stickers"
+        example: "Pins, Pins, Pins!"
