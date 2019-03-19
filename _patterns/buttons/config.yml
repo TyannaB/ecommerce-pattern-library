@@ -6,10 +6,11 @@ patterns:
   basic:
     title: "Basic"
     description: |
-      Defaut to usig the basic button. It should always e used in front of light backgrounds.
-    width: "12em"
-  ghost:
-    title: "Ghost"
-    description: |
-      The ghost button is specifically for banners, where it will be placed in front od busy images.
-    background: "--color-primary-light"
+      This is the basic button that is used on the banners
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/"

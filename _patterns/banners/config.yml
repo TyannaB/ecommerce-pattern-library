@@ -10,9 +10,12 @@ patterns:
         example: "Stickers, Stickers, Stickers!"
       - name: text
         type: string
-        example: "Click to see new stickers"
+        example: "Shop Now"
   hero-banner:
     fields:
       - name: heading
         type: string
         example: "Pins, Pins, Pins!"
+      - name: text
+        type: string
+        example: "Shop Now"
