@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+<div class="gutter-1-2">
+  {% pattern navigations/breadcrumbs %}
+  <h1>{{page.name}}</h1>
+  <p>{{page.description}}</p>
+  <div class="push-1-2">
+    {% pattern cards/product-detail-card %}
+  </div>
+</div>
