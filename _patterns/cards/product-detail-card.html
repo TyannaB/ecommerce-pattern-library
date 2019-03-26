@@ -1,19 +1,20 @@
-<div class="card grid">
-  <div class="unit xs-1 s-1 m-1 l-1 push relative">
-    <img class= "img-flex" src="/images/stack-of-pancakes.svg" alt="">
-      <i class="icon i-64 sales-flag"><svg><use xlink:href="/images/icons.svg#sale" /></svg></i>
-  </div>
-  <div class="unit xs-1 s-1 m-1 l-1-2 gutter">
-    <h2>Rainbow Pancake Sticker</h2>
-    <p>A Rainbow Pancake sticker that is super fun and cute!</p>
-    <label for="amount">Amount</label>
-<input id="amount" list="amount-list" required>
-<datalist id="amount-list">
-  <option value="1">
-  <option value="2">
-  <option value="3">
-  <option value="4">
-</datalist>
-    {% pattern buttons/basic text="Shop Now" url="/products/" %}
-  </div>
+<div class="grid">
+  <a href="{{product.url}}" class="card">
+    <div class="unit xs-1 s-1 m-1 l-1 push relative">
+      <img class="img-flex" src="/images/sticker-bundle.jpg" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1 gutter">
+      <h2>Sticker Bundle</h2>
+      <p>A pack of 6 stickers randomly chosen that are pancakes.</p>
+      <label for="amount">Amount</label>
+      <input id="amount" list="amount-list" required>
+      <datalist id="amount-list">
+        <option value="1">
+        <option value="2">
+        <option value="3">
+        <option value="4">
+      </datalist>
+      {% pattern buttons/basic text="Shop Now" url="/products/" %}
+    </div>
+  </a>
 </div>
