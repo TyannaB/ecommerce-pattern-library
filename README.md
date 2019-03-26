@@ -20,5 +20,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
 
 ---
-
+## Collaborators
+- [TyannaB](https://github.com/tyannab)
+- [megan-smith-6](https://github.com/megan-smith-6)
 © PancakeShop 2019 All Rights Reserved
