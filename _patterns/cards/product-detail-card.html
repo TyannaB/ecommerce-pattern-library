@@ -3,8 +3,8 @@
     <img class="img-flex" src="/images/sticker-bundle.jpg" alt="">
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
-    <h2>Sticker Bundle</h2>
-    <p>A randomly picked sticker bundle!</p>
+    <h2>{{include.data.name}}</h2>
+    <p>{{include.data.description}}</p>
     <label class="min-width" for="amount">Amount</label>
     <input id="amount" list="amount-list" required>
     <datalist id="amount-list">
@@ -13,6 +13,5 @@
       <option value="3">
       <option value="4">
     </datalist>
-    {% pattern buttons/basic text="Shop Now" url="/products/" %}
   </div>
 </div>

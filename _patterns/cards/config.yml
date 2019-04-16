@@ -1,3 +1,15 @@
 title: "Cards"
 description: |
   There are two card types for this website the normal card which is for regular priced items, and the sales card for sale items.
+
+patterns:
+  product-detail-card:
+    title: "Product Detail Card"
+    description: |
+      hello worlds
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
